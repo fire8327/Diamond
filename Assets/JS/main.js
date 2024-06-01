@@ -10,3 +10,9 @@ $("#overlay").click(() => {
     $("#menu").removeClass("max-lg:top-full")
     $("#overlay").addClass("hidden")
 })
+
+
+/* табы */
+$("#tabs").tabs({
+    active: 0
+});
